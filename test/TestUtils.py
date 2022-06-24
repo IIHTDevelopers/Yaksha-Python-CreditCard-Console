@@ -27,4 +27,4 @@ class TestUtils:
 
         final_result = json.dumps(test_results)
 
-        #requests.post(self.URL, final_result)
+        requests.post(self.URL, final_result)
